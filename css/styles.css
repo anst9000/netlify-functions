@@ -1,0 +1,21 @@
+body {
+  background-color: #444444;
+}
+
+.container {
+  color: #eeeddd;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.card {
+  background-color: lightblue;
+  margin: 0.5rem;
+  padding: 1rem 3rem;
+}
+
+.list-group-item {
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+}
