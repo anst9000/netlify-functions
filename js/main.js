@@ -5,8 +5,6 @@ const fetchUsers = async () => {
   const res = await fetch('/.netlify/functions/getusers')
   const data = await res.json()
 
-  console.log('data =', data)
-
   data.forEach((user, index) => {
     const card = document.createElement('div')
     card.className = 'card'
